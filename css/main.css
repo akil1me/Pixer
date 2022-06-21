@@ -282,7 +282,8 @@ main {
 }
 
 .section-form {
-  padding: 56px 0;
+  padding-top: 56px;
+  padding-bottom: 64px;
   background-color: #00BAFC;
 }
 
@@ -341,4 +342,86 @@ main {
 .button-form {
   width: 167px;
   margin: 0 auto;
+}
+
+footer {
+  padding: 56px 0;
+  background-color: #191919;
+}
+
+.footer {
+  display: flex;
+  align-items: flex-start;
+  color: #FFFFFF;
+}
+
+.footer-left {
+  width: 320px;
+  margin-right: 100px;
+}
+
+.footer-left p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
+  opacity: 0.9;
+}
+
+.footer-center {
+  margin-right: 87px;
+}
+
+.footer h6 {
+  margin-bottom: 16px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+}
+
+.footer-items+.footer-items {
+  margin-top: 8px;
+}
+
+.footer-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  transition: color 0.3s ease, opacity 0.3s ease;
+  opacity: 0.9;
+}
+
+.footer-link:hover {
+  color: #00BAFC;
+}
+
+.footer-link:active {
+  color: #00BAFC;
+  opacity: 0.6;
+}
+
+.footer-link-2 {
+  display: flex;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  align-items: center;
+  transition: color 0.3s ease, opacity 0.3s ease;
+  opacity: 0.9;
+}
+
+.footer-link-2:hover {
+  color: #00BAFC;
+}
+
+.footer-link-2:active {
+  color: #00BAFC;
+  opacity: 0.6;
+}
+
+.footer-link-2 span {
+  margin-left: 8px;
 }

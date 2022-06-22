@@ -139,7 +139,7 @@ header {
   background: rgba(0, 186, 252, 0.6);
 }
 
-main {
+.section-home {
   margin-top: 197px;
 }
 
@@ -469,4 +469,33 @@ footer {
 
 .footer-link-2 span {
   margin-left: 8px;
+}
+
+.section-new-service {
+  padding-top: 128px;
+  padding-bottom: 72px;
+}
+
+.new-service {
+  width: 800px;
+  margin: auto;
+}
+
+.new-service-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  color: #000000;
+  margin-bottom: 16px;
+}
+
+.new-service-text {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+
 }
